@@ -1,4 +1,7 @@
 package com.geekbrains;
 
-public class MyArrayDataException {
+public class MyArrayDataException extends NumberFormatException{
+    public MyArrayDataException(String message){
+        super(message);
+    }
 }
